@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { useCallback, useRef } from 'react'
 import styled from 'styled-components'
-import { useElementSize } from 'usehooks-ts'
+import { useSize } from 'usehooks-ts'
 
 import { Rect, Transform, Translate } from '../types'
 import { px } from '../utils'
